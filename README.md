@@ -21,5 +21,6 @@ This is my personal portfolio website showcasing my:
 - Contact Section
 - Modern UI
 
-## 📷 Preview
-(Add screenshot here)
+## 📸 Portfolio Preview
+
+![Portfolio Screenshot](assets/images/portfolio.png)
