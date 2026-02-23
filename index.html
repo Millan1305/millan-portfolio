@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Millan Kumar Behera | Portfolio</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- CSS -->
+<link rel="stylesheet" href="./css/style.css" />
+
+<!-- JS -->
+<script type="module" src="./js/app.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contactBtn">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Background blobs -->
+<div class="blob one"></div>
+<div class="blob two"></div>
+
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <span class="role">Cybersecurity & AI Enthusiast</span>
+      <h1>Millan Kumar Behera</h1>
+      <p>
+        I am a Cybersecurity-focused Computer Science Engineer with strong interests in offensive security and penetration testing. I also have experience in front-end development and enjoy communicating technical ideas creatively.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="../assets/cv.pdf" class="btn secondary" download>
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+
+        <div class="contact-wrapper">
+          <button class="btn secondary" id="contactBtn">Contact</button>
+          <div class="contact-menu" id="contactMenu">
+            <a href="mailto:millankumarbehera16@gmail.com"><i class="fa-solid fa-envelope"></i> Gmail</a>
+            <a href="tel:+917894547656"><i class="fa-solid fa-phone"></i> Phone</a>
+            <a href="https://www.linkedin.com/in/millan-kumar-behera-08b655300" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-img">
+      <img src="images/profile.jpeg" alt="Profile">
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="title">🛠️ Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Programming & Scripting</h3>
+        <div class="skill"><span>C</span><div class="bar"><div style="width:70%"></div></div></div>
+        <div class="skill"><span>Python</span><div class="bar"><div style="width:65%"></div></div></div>
+        <div class="skill"><span>Core Java</span><div class="bar"><div style="width:85%"></div></div></div>
+        <div class="skill"><span>DSA</span><div class="bar"><div style="width:80%"></div></div></div>
+      </div>
+
+      <div class="card">
+        <h3>Web & App Development</h3>
+        <div class="skill"><span>JavaScript</span><div class="bar"><div style="width:40%"></div></div></div>
+        <div class="skill"><span>HTML & CSS</span><div class="bar"><div style="width:80%"></div></div></div>
+        <div class="skill"><span>Node.js</span><div class="bar"><div style="width:50%"></div></div></div>
+        <div class="skill"><span>Kotlin</span><div class="bar"><div style="width:40%"></div></div></div>
+        <div class="skill"><span>Android</span><div class="bar"><div style="width:40%"></div></div></div>
+      </div>
+
+      <div class="card">
+        <h3>Cybersecurity</h3>
+        <div class="skill"><span>Incident Response</span><div class="bar"><div style="width:60%"></div></div></div>
+        <div class="skill"><span>OS Security</span><div class="bar"><div style="width:70%"></div></div></div>
+        <div class="skill"><span>Networking Fundamental</span><div class="bar"><div style="width:70%"></div></div></div>
+        <div class="skill"><span>Offensive Security</span><div class="bar"><div style="width:70%"></div></div></div>
+      </div>
+
+      <div class="card">
+        <h3>Database & Tools</h3>
+        <div class="skill"><span>MySQL</span><div class="bar"><div style="width:75%"></div></div></div>
+        <div class="skill"><span>JDBC</span><div class="bar"><div style="width:75%"></div></div></div>
+        <div class="skill"><span>AWS</span><div class="bar"><div style="width:40%"></div></div></div>
+        <div class="skill"><span>Git & Firebase</span><div class="bar"><div style="width:50%"></div></div></div>
+      </div>
+
+      <div class="card">
+        <h3>Operating System</h3>
+        <div class="skill"><span>Windows</span><div class="bar"><div style="width:85%"></div></div></div>
+        <div class="skill"><span>Linux</span><div class="bar"><div style="width:80%"></div></div></div>
+        <div class="skill"><span>Ubuntu</span><div class="bar"><div style="width:70%"></div></div></div>
+        <div class="skill"><span>Red Hat</span><div class="bar"><div style="width:80%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="title">Projects</h2>
+    <div class="grid">
+      <div class="card project" data-project="fraud" data-title="Fraud Analysis Model (2024)">
+        <h3> Online Fraud Analysis Model (ML)</h3>
+        <p>Click to view details</p>
+      </div>
+       <div class="card project" data-project="fraud" data-title="Fraud Analysis Model (2024)">
+        <h3>Sentiment Analysis Model (ML)</h3>
+        <p>Click to view details</p>
+      </div>
+      <div class="card project" data-project="healthcare" data-title="E-Healthcare Management System">
+        <h3>E-Healthcare Management System</h3>
+        <p>Click to view details</p>
+      </div>
+      <div class="card project" data-project="qr" data-title="QR Code Factory Management System">
+        <h3>QR Code Factory Management System</h3>
+        <p>Click to view details</p>
+      </div>
+<div class="card project featured"
+     onclick="window.open('https://cyberforge-acb0f.web.app', '_blank')">
+  <h3>CyberForge - A cybersecurity learning platform</h3>
+  <p>Click to view live project</p>
+</div>
+
+  </section>
+
+  <section id="experience">
+  <h2 class="title">Experience & Trainings</h2>
+  <div class="grid">
+    <!-- Internship -->
+    <div class="card">
+      <h3>AI & ML Internship | Teachnook</h3>
+      <p>Jun 2024 – Jul 2024</p>
+      <ul>
+        <li>Developed a Sentiment Analysis Chatbot.</li>
+        <li>Built ML models for emotion detection and recommendations.</li>
+      </ul>
+    </div>
+
+    <!-- Training -->
+    <div class="card">
+      <h3>Core Java Training | LIT</h3>
+      <p>May 2025 – Jun 2025</p>
+      <ul>
+        <li>Completed Java fundamentals, OOP, JDBC, multithreading, and GUI.</li>
+        <li>Built a complete e-Healthcare Management System project.</li>
+      </ul>
+    </div>
+
+    <!-- Internship -->
+    <div class="card">
+      <h3>Cybersecurity Internship | Shadowfox</h3>
+      <p>Aug 2025</p>
+      <ul>
+        <li>Worked on threat analysis, red teaming, and defensive security.</li>
+        <li>Gained hands-on experience with incident response workflows.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close" id="modalClose">✕</span>
+      <h3 id="modalTitle"></h3>
+      <div id="modalText"></div>
+    </div>
+  </div>
+
+  <!-- FUTURE -->
+  <section>
+    <h2 class="title">Future Vision</h2>
+    <div class="card">
+      <p>
+                    I am preparing to become an Incident Responder, focusing on defensive
+        security, threat intelligence, real-world cyber resilience and Airtificial Inteligence.
+        Along with this I am also preparing for the Combine Defense service
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>📧 millankumarbehera16@gmail.com</p>
+    <p>🔗 linkedin.com/in/millan-kumar-behera</p>
+    <p>📍 Odisha, India</p>
+  </footer>
+
+</div>
+</body>
+</html>
