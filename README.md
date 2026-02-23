@@ -23,4 +23,4 @@ This is my personal portfolio website showcasing my:
 
 ## 📸 Portfolio Preview
 
-![Portfolio Screenshot](assets/image/portfolio.png)
+![Portfolio Screenshot](assets/image/portfollio.png)
